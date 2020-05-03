@@ -1,0 +1,6 @@
+---
+# handlers file for linux-install-httpd
+- name: restart apache services
+  service:
+    name: httpd
+    state: restarted
